@@ -1,0 +1,29 @@
+body{
+background: no-repeat url(/immages/images\ -\ 5.jpg) ;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.regform{
+    width: 500px;
+    margin: 250px auto; 
+    padding: 10px 30px 30px;
+    background-color: rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.regform h3{
+    color: darkred;
+    text-align: center;
+}
+
+.regform .textlable{
+    display: block;
+}
+.input input{
+    width: 100%;
+    font-size: 1.1em;
+    border: 1px solid coral;
+    box-shadow: 2px;
+    border-radius: 8px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin: ;
+}
