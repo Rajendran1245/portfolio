@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    height: 90vh;
+    width: 100%;
+    background-image: url(/photos/immages/develeper\ 1\ .png);
+    background-size:cover ;
+    color: rgb(54, 170, 54);
+    background-position: center;
+}
+nav{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding-top:45px;
+    padding-left:8%;
+    padding-right:8%;
+    
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 10px ;
+    font-weight: bold;
+}
+nav ul li a:hover{
+color: chartreuse;
+transition: 0.25s;
+}
+.content{
+    position: absolute;
+    top: 40%;
+    left:10%;
+    color: rgb(255, 0, 157);
+}
+.about{
+    background-color: black;
+    color: azure;
+    padding-left: 100px;
+}
+.main{
+    width:1000px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-tex h4 {
+    font-size: 30px;
+    margin-left: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.about-tex h2 {
+    font-size: 30px;
+    margin-left: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.about-tex p{
+    width: 50%;
+    margin-left: 30px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: rgb(67, 33, 219);
+}
+button{
+background-color:yellow;
+border: 2px solid transparent;
+font-weight: bold;
+padding: 2px 3px ;
+border-radius: 5px;
+margin-bottom: 100px;
+}
+.skills{
+    background-color: rgb(16, 229, 236);
+    text-align: center;
+    height: 70vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    position: relative;
+    margin: auto;
+}
+.container{
+    display: flex;
+    gap: 30px;
+    animation: scroll 30s linear infinite;
+}
+.card{
+    border-radius: 22PX;
+    min-height: 100px;
+    min-width: 150px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+.card:nth-child(odd){
+    background: linear-gradient(-229deg,rgb(56, 24, 2),rgb(171, 230, 116),YELLOW);
+}
+.card:nth-child(even){
+    background: linear-gradient(blue,rgb(255, 0, 0));
+}
+@keyframes scroll {
+0%{
+    transform: translatex(0);
+}    
+100%{
+    transform: translate(calc(-250px*5));
+}
+}
+
+.test{
+    min-height: 100vh;
+    display: flex;
+}
+.box h1{
+    color: brown;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.test{
+    background-color: brown;
+    border-radius: 20px;
+    margin-left: 10px;
+    height: 360px;
+    width: 360px;
+    margin-right: 1000Px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.test h5{
+    margin-left: 120px;
+    margin-top: 10px;
+    
+}
+.contact{
+    margin-top: 2vh;
+    padding-right: 100vh;
+    margin-right:90vh ;
+    background-color: black;
+    height: 70vh;
+    width: 100%;
+    color:pink; 
+}
+.contact-box{
+    margin: 10vh;
+    display: flex;
+    background-color: rgb(99, 216, 216);
+}
+.contact-left{
+flex-basis: 100%;
+margin-left: 20vh;
+color: black;
+}
+.contact-right{
+    margin-left: 10vh;
+    flex-basis: 100%;
+    background-color:rgb(204, 219, 66);
+    color: rgb(182, 1, 1)
+    }
+    .contact h1{
+        margin-bottom: 10px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+ .contact-left input{
+    color: rgb(14, 196, 24);
+ }
+ .input-row{
+    display: flex;
+    justify-content: center;
+    
+ }
+
+ .contact-right{
+    padding-left: 50px;
+    text-align: left;
+    padding-bottom: 100px;
+ }
+ .contact-right h1{
+    text-align: left;
+    margin-left: 100px;
+ }
+ 
